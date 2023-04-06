@@ -23,7 +23,7 @@ export default function Navbar() {
             <a href="#!">Journal</a>
           </li>
           <li>
-            <a href="#!">Contacts</a>
+            <a href="#!">Ibrohim</a>
           </li>
           <li>
             <a href="#!">Cart</a>
