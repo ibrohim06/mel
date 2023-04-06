@@ -1,0 +1,55 @@
+.info {
+  margin: 10%;
+  &_card {
+    h1 {
+      font-weight: 400;
+      font-size: 29px;
+      line-height: 40px;
+      /* identical to box height, or 138% */
+      text-align: center;
+
+      color: #1f1e1e;
+      margin-bottom: 35px;
+    }
+  }
+  &_flex {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    background: #d5d8d1;
+    border-radius: 4px;
+  }
+  &_img {
+    img {
+      margin-bottom: -4px;
+      width: 100%;
+      height: 100%;
+      border-radius: 4px;
+    }
+  }
+  &_text {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    h4 {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 32px;
+      /* or 133% */
+      text-align: center;
+      color: #1f1e1e;
+      width: 70%;
+      margin: auto;
+    }
+    p {
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 16px;
+      /* identical to box height, or 133% */
+      text-align: center;
+
+      color: #1f1e1e;
+    }
+  }
+}
